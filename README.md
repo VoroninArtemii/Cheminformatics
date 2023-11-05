@@ -1,2 +1,2 @@
 # Cheminformatics
-The program predicts whether a chemical compound is a drug or not
+Based on the data on chemical compounds and structural formulas, it is predicted whether a particular chemical compound is a drug or not. The program uses processing of the obtained data on chemical compounds and data preprocessing, but does not use their normalization, so the error may have a rather greater value. After careful processing, the data is split and the model is trained by gradient boosting. The value of the minimum mean square error is about 1000.
